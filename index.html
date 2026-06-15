@@ -106,6 +106,43 @@
       </div>
       <h2 class="title is-3">Publications</h2>
 
+      <!-- Don't Retrain -->
+      <div class="publication-block columns">
+        <div class="column is-2">
+          <div class="publication-image publication-mousecell">
+            <video autoplay preload playsinline class="" height="100%" loop muted width="100%" style="display: none;">
+              <source src="./images/recap.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <img alt="Retrieve, Don't Retrain: Extending Vision-Language-Action Models to New Tasks at Test Time" src="./images/recap_before.png" style="display: inline-block;"/>
+          </div>
+        </div>
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title"><a href="https://recap-robot.github.io/">Retrieve, Don't Retrain: Extending Vision-Language-Action Models to New Tasks at Test Time</a></h3>
+            <div class="publication-authors">
+              <span class="author-block"><a href="https://jeongeun-park-page.github.io/">Jeongeun Park</a>,</span>
+              <span class="author-block author-me"><a href="https://juhanpark.com">Juhan Park</a>,</span>
+              <span class="author-block"><a href="https://taekyungkim918.github.io/">Taekyung Kim</a>,</span>
+              <span class="author-block"><a href="https://sites.google.com/view/sungjoon-choi/home">Sungjoon Choi</a>,</span>
+              <span class="author-block"><a href="https://sites.google.com/site/dyhan0920/">Dongyoon Han</a>,</span>
+              <span class="author-block"><a href="https://sangdooyun.github.io/">Sangdoo Yun</a></span>
+            </div>
+            <div class="publication-venue">
+              <span>Preprint, 2026</span>
+            </div>
+            <p class="publication-description">ReCAP is a retrieval-augmented policy that adapts vision-language-action models to new tasks at deployment without retraining: the frozen policy conditions on retrieved trajectories at every control step, so new tasks are absorbed by indexing data rather than updating parameters.</p>
+            <!-- Publication Links. -->
+            <div class="publication-links buttons field has-addons">
+              <a class="external-link button is-small is-ghost" href="https://recap-robot.github.io/">
+                <span class="icon"><i class="fas fa-globe-asia"></i></span>
+                <span>Project Page</span>
+              </a>
+            </div>
+            <!--/ Publication Links. -->
+          </div>
+        </div>
+      </div>
 
       <!-- GRIT -->
       <div class="publication-block columns">
@@ -123,7 +160,7 @@
           <div class="content">
             <h3 class="publication-title">Learning Dexterous Grasping from Sparse Taxonomy Guidance</a></h3>
             <div class="publication-authors">
-              <span class="author-block"><a href="https://juhanpark.com">Juhan Park</a>,</span>
+              <span class="author-block  author-me"><a href="https://juhanpark.com">Juhan Park</a>,</span>
               <span class="author-block"><a href="https://taerimyoon.me">Taerim Yoon</a>,</span>
               <span class="author-block"><a href="https://forworksmk.github.io/">Seungmin Kim</a>,</span>
               <span class="author-block"><a href="#">Joonggil Kim</a>,</span>
@@ -148,9 +185,9 @@
                 <span>Project Page</span>
               </a>
               <!-- TODO Arxiv 버전 추가 후 변경 -->
-              <a class="external-link button is-small is-ghost" href="https://ebooks.iospress.nl/doi/10.3233/FAIA241020">
-                <span class="icon"><i class="fas fa-file-pdf"></i></span>
-                <span>PDF</span>
+              <a class="external-link button is-small is-ghost" href="https://arxiv.org/abs/2604.04138">
+                <span class="icon"><i class="ai ai-arxiv"></i></span>
+                <span>arXiv</span>
               </a>
               <a class="external-link button is-small is-ghost" href="https://www.youtube.com/watch?v=o-ogAUEHNiY">
                 <span class="icon"><i class="fab fa-youtube"></i></span>
@@ -169,18 +206,18 @@
           <div class="publication-image publication-mousecell">
             
             <video autoplay preload playsinline class="" height="100%" loop muted width="100%" style="display: none;">
-              <source src="./images/vine_before.png" type="video/mp4">
+              <source src="./images/vine_after.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
-            <img alt="Learning Feasibility from Failure Data in Vision–Language–Action Models" src="./images/vine_before.png" style="display: inline-block;"/>
+            <img alt="Hierarchical Vision Language Action Model Using Success and Failure Demonstrations" src="./images/vine_before.png" style="display: inline-block;"/>
           </div>
         </div>
         <div class="column">
           <div class="content">
-            <h3 class="publication-title"><a href="">Learning Feasibility from Failure Data in Vision–Language–Action Models</a></h3>
+            <h3 class="publication-title"><a href="https://vine-vla.github.io/">Hierarchical Vision Language Action Model Using Success and Failure Demonstrations</a></h3>
             <div class="publication-authors">
               <span class="author-block">
-                Jeongeun Park,
+                <a href="https://jeongeun-park-page.github.io/">Jeongeun Park</a>,
               </span>
               <span class="author-block ">
                 <a href=""> Jihwan Yoon</a>,
@@ -190,6 +227,9 @@
               </span>
               <span class="author-block author-me">
                 <a href=""> Juhan Park</a>,
+              </span>
+              <span class="author-block ">
+                <a href=""> Jinwoo Shin</a>,
               </span>
               <span class="author-block ">
                 <a href="">Namhoon Cho</a>,
@@ -202,22 +242,19 @@
               </span>
               <span class="author-block ">
                 <a href="https://sites.google.com/view/sungjoon-choi/home"> Sungjoon Choi</a>
+              </span>
             </div>
             <div class="publication-venue">
-              <span> CoRL 2025 2nd Workshop on Safe and Robust Robot Learning for Operation in the Real World </span>
+              <span>CoRL 2025 2nd Workshop on Safe and Robust Robot Learning for Operation in the Real World</span>
             </div>
-            <p class="publication-description">We propose VINE, a dual-system framework that injects failure-aware reasoning into
-VLAs. System 1 executes grounded action chunks, while System 2 builds a tree of thought
-states and scores candidate subgoals using both success and failure data.</p>
-            <!-- In red color -->
-            <!-- <p style="color: red;">The arXiv preprint and project page will be available soon (before November).</p> -->
+            <p class="publication-description">We propose VINE, a dual-system framework that injects failure-aware reasoning into VLAs. System 1 executes grounded action chunks, while System 2 builds a tree of thought states and scores candidate subgoals using both success and failure data.</p>
             <!-- Publication Links. -->
             <div class="publication-links buttons field has-addons">
               <a class="external-link button is-small is-ghost" href="https://vine-vla.github.io/">
                 <span class="icon"><i class="fas fa-globe-asia"></i></span>
                 <span>Project Page</span>
               </a>
-              <a class="external-link button is-small is-ghost" href="">
+              <a class="external-link button is-small is-ghost" href="https://arxiv.org/abs/2512.03913">
                 <span class="icon"><i class="ai ai-arxiv"></i></span>
                 <span>arXiv</span>
               </a>
