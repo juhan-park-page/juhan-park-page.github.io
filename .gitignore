@@ -1,0 +1,7 @@
+# macOS
+.DS_Store
+
+# V2D gallery: camera originals stay local. Only the web-ready JPEGs in
+# images/v2d/web/ are published, since HEIC does not render in Chrome/Firefox.
+images/v2d/*
+!images/v2d/web/
